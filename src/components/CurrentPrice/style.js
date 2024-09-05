@@ -1,11 +1,11 @@
 import { StyleSheet } from "react-native"
-import CurrentPrice from "."
 
 const styles = StyleSheet.create({
     headerPrice: {
         width: "100%",
         height: "auto",
         alignItems: "center",
+        marginBottom: 25,
     },
     currentPrice: {
         color: "#f50d41",
